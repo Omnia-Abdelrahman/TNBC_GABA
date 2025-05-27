@@ -3,8 +3,9 @@
 This repository contains the final project for BS831 titled **"TNBC_GABA"** by Omnia Abdelrahman.
 
 ## Files Included
-📄 [Click here to view the full PDF report](Omnia%20Abdelrahman%20BS831%20Final%20Project.pdf)
-[View the full poster (PDF)](TNBC_OA_LWeber.pdf)
+[Click here to view the full PDF report](Omnia%20Abdelrahman%20BS831%20Final%20Project.pdf)
+
+[View the full poster (PDF)](TNBC OA LWeber.pdf)
 
 
 
