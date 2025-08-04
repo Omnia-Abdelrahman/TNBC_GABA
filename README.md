@@ -3,29 +3,31 @@
 This repository contains the final project for BS831 titled **"TNBC_GABA"** by Omnia Abdelrahman.
 
 ## Files Included
-[Click here to view the full PDF report](Omnia%20Abdelrahman%20BS831%20Final%20Project.pdf)
-
-[View the full poster (PDF)](TNBC_Poster.pdf)
-
-
+- [Full Report (PDF)](Omnia%20Abdelrahman%20BS831%20Final%20Project.pdf)  
+- [Poster Presentation (PDF)](TNBC_Poster.pdf)  
+- [Code Samples (PDF)](TNBC_CODING.PDF)
 
 ## Summary
-Triple-negative breast cancer (TNBC) is a highly aggressive subtype lacking targeted therapies. This project explores how GABA receptor signaling, particularly the GABRA3 subunit, may influence proliferation and epithelial-to-mesenchymal transition (EMT) in TNBC.
+Triple-negative breast cancer (TNBC) is a highly aggressive subtype with limited treatment options due to the absence of hormone receptors. This project investigated the potential role of **GABA receptor signaling**, particularly the **GABRA3 subunit**, in driving tumor proliferation and epithelial-to-mesenchymal transition (EMT).
 
-**Data:**  
-RNA-seq data from 213 samples (97 TNBC tumors and 116 normal breast tissues) were analyzed. These samples were extracted from the TCGA-BRCA project and filtered based on ESR1, PGR, and ERBB2 expression thresholds to isolate TNBC cases.
+**Data Source:**  
+Public RNA-seq data from **213 TCGA-BRCA samples** (97 TNBC tumors, 116 normal breast tissues). TNBC cases were defined by negative expression of ESR1, PGR, and ERBB2.
 
-The analysis involved differential gene expression, pathway enrichment, and subgroup stratification to identify key GABA subunits and their associated gene expression patterns.
+**Analytic Workflow:**  
+- Differential expression analysis of GABA subunits using `DESeq2`  
+- Pathway enrichment with `fgsea` and MSigDB hallmark sets  
+- Visualization with `ggplot2` and `pheatmap`  
+- Subgroup stratification based on EMT markers to explore downstream gene expression programs  
 
-## Tools Used
-- R / DESeq2
-- TCGAbiolinks
-- GSEA / fgsea
-- ggplot2 / pheatmap
+## Tools & Packages
+- **R 4.4**  
+- `DESeq2`, `TCGAbiolinks`, `fgsea`, `ggplot2`, `pheatmap`  
+- Data wrangling and QC with `dplyr` and `tidyr`  
 
 ## Author
-**Omnia Abdelrahman**  
-BDS, MPH | Boston University
+**Omnia Abdelrahman, BDS, MPH**  
+Graduate Student, Epidemiology & Biostatistics  
+Boston University School of Public Health
 
 ## Contact
-If you have questions, feel free to open an issue or contact me via email.
+For questions or collaborations, feel free to open an issue or email me at [omnia@bu.edu](mailto:omnia@bu.edu).
