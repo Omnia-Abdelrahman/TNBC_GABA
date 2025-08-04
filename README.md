@@ -5,7 +5,7 @@ This repository contains the final project for BS831 titled **"TNBC_GABA"** by O
 ## Files Included
 - [Full Report (PDF)](Omnia%20Abdelrahman%20BS831%20Final%20Project.pdf)  
 - [Poster Presentation (PDF)](TNBC_Poster.pdf)  
-- [Code Samples (PDF)](TNBC_CODING.PDF)
+- [Code Samples (PDF)](TNBC_Full_Coding.PDF)
 
 ## Summary
 Triple-negative breast cancer (TNBC) is a highly aggressive subtype with limited treatment options due to the absence of hormone receptors. This project investigated the potential role of **GABA receptor signaling**, particularly the **GABRA3 subunit**, in driving tumor proliferation and epithelial-to-mesenchymal transition (EMT).
